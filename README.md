@@ -15,6 +15,7 @@ Yêu cầu bài toán: Nhập vào thông tin của khách hàng gồm: tuổi v
 I) Black-box Testing
 - Kiểm thử theo bảng quyết định 
 - Kiểm thử theo phân hoạch tương đương
+
 II) White - box Testing
 - Kiểm thử dòng điều khiển với độ đo C2 	
 
