@@ -26,18 +26,18 @@ public class Person {
     public int account(Person person) {
         int cost = 0;
         if (person.age < 0)
-            cost = -1;
+            return -1;
         else {
-            if (person.age >= 0 && person.age <= 5) {
+            if (person.age <= 5) {
                 if (person.type == "NORMAL")
                     cost = 300000;
-                else if (person.type == "VIP")
+                else
                     cost = 700000;
             } else {
-                if (person.type == "NORMAL")
-                    cost = 500000;
-                else if (person.type == "VIP")
+                if (person.type == "VIP")
                     cost = 1000000;
+                else
+                    cost = 500000;
             }
         }
         return cost;
