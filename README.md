@@ -1,7 +1,4 @@
 Junit-Testing-INT3117
-
-I) Black-box Testing
-
 Mô tả bài toán:
 
 Một khu vui chơi bán vé vào cửa cho khách hàng sẽ có mức giá khác nhau đối với mỗi người. Người sở hữu vé vip sẽ được tự do thỏa thích mua bất kỳ thứ gì mà không mất phí. 
@@ -14,3 +11,13 @@ Trẻ em: Dưới 6 tuổi Người lớn: 6 tuổi trở lên
 Trường hợp nhập tuổi dưới 0, hệ thống sẽ báo lỗi.
 	
 Yêu cầu bài toán: Nhập vào thông tin của khách hàng gồm: tuổi và hạng vé của khách hàng, đưa ra số tiền khách hàng phải trả 
+
+I) Black-box Testing
+- Kiểm thử theo bảng quyết định 
+- Kiểm thử theo phân hoạch tương đương
+
+II) White - box Testing
+- Kiểm thử dòng điều khiển với độ đo C2 	
+
+
+
